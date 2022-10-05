@@ -1,0 +1,133 @@
+:root {
+    font-size: 16px;
+
+    --padding-left-right: 30%;
+    --padding-top-bottom: 2%;
+
+    --selfie-size: 100px;
+    --borderRadius: 10px;
+}
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #353535, #29304b);
+}
+* {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+footer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    text-align: left;
+    margin-left: var(--padding-left-right);
+    margin-right: var(--padding-left-right);
+    margin-top: var(--padding-top-bottom);
+    margin-bottom: var(--padding-top-bottom);
+
+}
+
+.about
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.name {
+    font-family: ;
+    margin-left: 10px;
+    padding: 20px;
+}
+.selfie  {
+    width: var(--selfie-size);
+    clip-path: circle(calc(var(--selfie-size)/2));
+}
+
+
+
+.socials ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+i {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+    color: #79A7D3;
+}
+
+
+h1 {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: var(--borderRadius);
+}
+h4 {
+    padding: 5px;
+    border-radius: var(--borderRadius);
+    background-color: rgba(0, 0, 0, .2);
+}
+
+a {
+    text-decoration: underline;
+    color: #79A7D3;
+}
+
+ul {
+}
+
+li {
+    font-size: 1.3rem;
+    list-style: none;
+    margin: 10px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
