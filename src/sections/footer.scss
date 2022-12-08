@@ -1,0 +1,33 @@
+.footer {
+    @include section;
+    margin-bottom: 2em;
+   
+    &__contacts {
+        li {
+            margin: 1em 0;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        gap: 1em;
+        font-size: 2rem;
+    }
+}
+
+ @media (min-width: $bp-large) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__contacts {
+            display: flex;
+            gap: 3em;
+        }
+    }
+ }

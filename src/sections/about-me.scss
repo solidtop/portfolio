@@ -1,0 +1,42 @@
+.about-me {
+    @include section;
+}
+
+.timeline {
+    display: none;
+    max-width: 70%;
+    margin: .5em auto;
+    margin-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+
+    height: .5em;
+    background-color: white;
+    border-radius: 5px;
+
+    &__marker {
+        width: 1em;
+        height: 1em;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+
+.years {
+    text-align: center;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: $bp-large) {
+    .timeline {
+        display: flex;
+    }
+
+    .years {
+        display: flex;
+        gap: 1em;
+    }
+}

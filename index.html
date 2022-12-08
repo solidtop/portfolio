@@ -4,77 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./static/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <title>Axels CV</title>
+    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>CV</h1>
+
+    <header class="header">
+        <h1 class="header__title">Portfolio</h1>
     </header>
 
+    <nav class="main-nav">
+
+        <button class="button-open"><i class="fa-solid fa-bars"></i></button>
+        <button class="button-close"><i class="fa-solid fa-xmark"></i></button>
+        <menu class="main-nav__menu">
+            <li class="main-nav__item"><a href="#projects">Projects</a></li>
+            <li class="main-nav__item"><a href="#technologies">Technologies</a></li>
+            <li class="main-nav__item"><a href="#about-me">About me</a></li>
+        </menu>
+
+        <ul class="main-nav__socials">
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
     <main>
-        <div class="content about">
-            <h1>About Me</h1>   
-            <div class="top">
-                <img class="selfie" src="Selfie.jpg" alt="Self potrait">
-                <h2 class="name">Axel Asp</h2>
+        <section class="hero">
+            <h2 class="headline">Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sint eos ipsa quisquam doloremque esse quia, quos neque hic laudantium laboriosam maxime porro facilis explicabo assumenda adipisci. Vitae, repudiandae labore.</p>
+            <button class="button primary">Let's begin</button>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="headline">Projects</h2>
+
+            <ul class="project-list">
+                <li class="project">
+                    <img class="project__image" src="static/project-image.png" alt="project image">
+                    <h3 class="project__title">A bit longer title for 3rd project</h3>
+                    <div class="line"></div>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!</p>
+                    <a class="button primary" href="">Look it up</a>
+                </li>
+                <li class="project">
+                    <img class="project__image" src="static/project-image.png" alt="project image">
+                    <h3 class="project__title">Project1</h3>
+                    <div class="line"></div>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!</p>
+                    <a class="button primary" href="">Look it up</a>
+                </li>
+                <li class="project">
+                    <img class="project__image" src="static/project-image.png" alt="project image">
+                    <h3 class="project__title">Project1</h3>
+                    <div class="line"></div>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!</p>
+                    <a class="button primary" href="">Look it up</a>
+                </li>
+                <li class="project">
+                    <img class="project__image" src="static/project-image.png" alt="project image">
+                    <h3 class="project__title">Project1</h3>
+                    <div class="line"></div>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!</p>
+                    <a class="button primary" href="">Look it up</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="technologies" id="technologies">
+            <h2 class="headline">Technologies</h2>
+
+            <ul class="skill-list">
+                <li class="skill">
+                    <label class="skill__label" for="skill1">Html, asd, asd, asd</label>
+                    <progress class="skill__indicator" id="skill1" value="80" max="100"></progress>
+                    <label class="skill__level" for="skill1">Advanced</label>
+
+                </li>
+                <li class="skill">
+                    <label class="skill__label" for="skill2">CSS & SASS</label>
+                    <progress class="skill__indicator" id="skill2" value="80" max="100"></progress>
+                    <label class="skill__level" for="skill2">Advanced</label>
+                </li>
+                <li class="skill">
+                    <label class="skill__label" for="skill3">JavaScript</label>
+                    <progress class="skill__indicator" id="skill3" value="40" max="100"></progress>
+                    <label class="skill__level" for="skill3">Intermediate</label>
+                </li>
+            </ul>
+
+            <h3 class="headline--sub">Additional technologies and skills</h3>
+
+            <ul class="add-skill-list">
+                <li>Git</li>
+                <li>Teamwork</li>
+                <li>English</li>
+                <li>Engagement</li>
+            </ul>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <h2 class="headline">About me</h2>
+
+            <div class="timeline" id="timeline">
+                <div class="timeline__marker"></div>
+                <div class="timeline__marker"></div>
+                <div class="timeline__marker"></div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium nemo magni. Perferendis, ullam animi nam sapiente suscipit aperiam quia fuga dolor eius consequatur provident culpa distinctio libero vitae molestiae? Id ullam delectus voluptatem inventore eos. Voluptate nulla accusantium laudantium. Natus vel eius totam, iusto alias deleniti tenetur commodi maxime! Temporibus sit vero tempore velit doloribus saepe magnam at molestias voluptatum ad voluptates, laudantium exercitationem necessitatibus beatae obcaecati fugiat culpa eaque omnis repellendus voluptate debitis nostrum iste doloremque harum! Esse, nesciunt iusto impedit saepe ab error commodi animi maiores delectus nulla expedita dolores sit hic! Quibusdam sequi nobis non tempora.</p>
-        </div>
 
-        <div class="content skills">
-            <h1>Technical Skills</h1>
-
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Java / C#</li>
-                <li>Windows/Linux (I wish)</li>
+            <ul class="years">
+                <li class="year">
+                    <span>2020</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!</p>
+                </li>
+                    <li class="year">
+                    <span>2021</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!</p>
+                </li>
+                <li class="year">
+                    <span>2022</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!</p>
+                </li>
             </ul>
-        </div>
-        <div class="content portfolio">
-            <h1>Projects</h1>
-            <ul>
+        </section>
+
+        <footer class="footer">
+            <ul class="footer__contacts">
                 <li>
-                    <a href="https://solidtop.github.io/ToDo/" target="_blank">Todo List</a>
-                    <label for="a" class="description">A simple Todo List made with HTML, CSS and JavaScript for a school project.</label>
+                    <span>Call me:</span>
+                    <a href="">070 637 23 64</a>
                 </li>
                 <li>
-                    <a href="https://play.google.com/store/apps/details?id=com.LogicalDuo.game&hl=en&gl=US" target="_blank">Marble Solitaire HD on Google Play</a>
-                    <label for="a" class="description">This is a description of this project</label>
+                    <span>Email:</span>
+                    <a href="">solidtop.asp@gmail.com</a>
                 </li>
-
             </ul>
-        </div>
-        <div class="content education">
-            <h1>Education</h1>
 
-            <ul>
-                <li>
-                    <h4>Music Production at Linnèuniversitet Sweden</h4>
-                    <label class="description">(2018 - 2021) Degree of Bachelor of Fine Arts with specialization in music production</label>
-    
-                    <h4>System Development at Lernia Sweden</h4>
-                    <label class="description">(2022 - ongoing) This is a description of a description</label>
-                </li>   
+            <ul class="footer__socials">
+                <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
-        </div>
+        </footer>
 
-        <div class="content socials">
-            <h1>Contact Me</h1>
-            <ul>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="mailto: solidtop.asp@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                <a href="https://github.com/solidtop" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </ul>
-        </div>
-        
     </main>
 
-    <footer>
-        <h3>Made by Axel Asp</h3>
-    </footer>
+    <script src="/src/main.js" type="module"></script>
 </body>
 </html>

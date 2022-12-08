@@ -1,0 +1,46 @@
+.headline {
+    font-size: 1.5rem;
+}
+
+.button {
+    display: block;
+    font-size: 1rem;
+    padding: .5em 2em;
+    border: none;
+    border-radius: 83px;
+    text-align: center;
+
+    &.primary {
+        background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+    }
+
+    &:hover {
+        cursor: pointer;
+        color: white;
+        filter: brightness(120%);
+    }
+}
+
+a:hover, i:hover {
+    background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(120%);
+}
+
+.line {
+    @include line(70%, 4px);
+}
+
+progress {
+    display: block;
+    background-color: #162950;
+    border: none;
+    border-radius: 83px;
+}
+
+progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+    border-radius: 83px;
+    background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+}

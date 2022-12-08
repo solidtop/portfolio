@@ -1,0 +1,27 @@
+@mixin section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    padding: 0 2em;
+}
+
+@mixin line($width, $height) {
+    display: block;
+    margin: .5em auto;
+    content: "";
+    width: $width;
+    height: $height;
+    border-radius: 83px;
+    background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+}
+
+@mixin burger-menu-line {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 0.4em;
+    border-radius: 5px;
+    background-color: white;
+}
