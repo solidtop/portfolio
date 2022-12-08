@@ -15,7 +15,7 @@ navLinks.forEach(link => {
 
 class APIAdapter {
     async loadData() {
-        const res = await fetch('/static/projects.json');
+        const res = await fetch('./static/projects.json');
         const data = await res.json();
         return data.projects;
     }

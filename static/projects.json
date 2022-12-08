@@ -1,19 +1,19 @@
 {
     "projects": [
         {
-            "image": "/static/calculator.png",
+            "image": "./static/calculator.png",
             "title": "Calculator",
             "description": "A simple calculator made in JavaScript, html and css.",
             "url": "https://solidtop.github.io/Calculator/"
         },
         {
-            "image": "/static/ESC.png",
+            "image": "./static/ESC.png",
             "title": "Hacker Escape Rooms",
             "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API data.",
             "url": "https://solidtop.github.io/esc-hacker-escape-rooms/"
         },
         {
-            "image": "/static/todo.png",
+            "image": "./static/todo.png",
             "title": "ToDo",
             "description": "A simple Todo list made in HTML, JavaScript & CSS",
             "url": "https://solidtop.github.io/ToDo/"
