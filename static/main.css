@@ -240,6 +240,8 @@ progress::-moz-progress-bar {
   margin-top: 2em;
   margin-bottom: 8em;
   padding: 0 2em;
+  padding: 0;
+  padding-left: 2em;
 }
 
 .project-list {
