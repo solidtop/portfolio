@@ -1,2 +1,2 @@
 # CV
-My CV application.
+My CV page.
