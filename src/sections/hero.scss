@@ -1,3 +1,10 @@
 .hero {
     @include section;
+
+    &__portrait {
+        max-width: 6em;
+        border-radius: 50%;
+        float: left;
+        padding: 1em;
+    }
 }

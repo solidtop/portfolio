@@ -25,7 +25,7 @@ ul, menu {
 
 img {
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .link:hover, i:hover {
@@ -232,6 +232,12 @@ progress::-moz-progress-bar {
   margin-bottom: 8em;
   padding: 0 2em;
 }
+.hero__portrait {
+  max-width: 6em;
+  border-radius: 50%;
+  float: left;
+  padding: 1em;
+}
 
 .projects {
   max-width: 1000px;
@@ -269,6 +275,8 @@ progress::-moz-progress-bar {
 }
 .project__image {
   border-radius: 8px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 .project__title {
   font-size: 1.5rem;
