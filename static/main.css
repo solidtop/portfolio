@@ -156,6 +156,10 @@ progress::-moz-progress-bar {
   display: none;
   border: none;
   background: transparent;
+  font-size: 2.5rem;
+}
+
+.button-close {
   font-size: 3rem;
 }
 
@@ -167,7 +171,6 @@ progress::-moz-progress-bar {
     right: 0.5em;
   }
   .main-nav.open {
-    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -246,8 +249,6 @@ progress::-moz-progress-bar {
   margin-top: 2em;
   margin-bottom: 8em;
   padding: 0 2em;
-  padding: 0;
-  padding-left: 2em;
 }
 
 .project-list {
@@ -270,13 +271,17 @@ progress::-moz-progress-bar {
   display: flex;
   flex-direction: column;
   padding: 1em;
+  border: 2px rgba(255, 255, 255, 0.02);
+  border-style: none solid none;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .project__image {
   border-radius: 8px;
   height: 200px;
   background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.01);
 }
 .project__title {
   font-size: 1.5rem;
@@ -366,6 +371,7 @@ progress::-moz-progress-bar {
 }
 .years span {
   text-decoration: underline;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 1000px) {

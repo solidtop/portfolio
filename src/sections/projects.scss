@@ -1,7 +1,5 @@
 .projects {
     @include section;
-    padding: 0;
-    padding-left: 2em;
 }
 
 .project-list {
@@ -23,13 +21,17 @@
     display: flex;
     flex-direction: column;
     padding: 1em;
+    border: 2px rgba(white, .02);
+    border-style: none solid none;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(white, .2);
+    background-color: rgba(white, .03);
+    box-shadow: 0 0 20px rgba(black, .5);
 
     &__image {
         border-radius: 8px;
         height: 200px;
         background-color: rgba(white, .05);
+        border: 2px solid rgba(white, .01);
     }
 
     &__title {

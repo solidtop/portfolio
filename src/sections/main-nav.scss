@@ -11,11 +11,11 @@
     &__menu, &__socials {
         display: none;
         margin: 0;
+        gap: 4em;
     
         @media (min-width: $bp-large) {
             display: flex;
         }
-        gap: 4em;
     }
 
     &__socials {
@@ -27,6 +27,10 @@
     display: none;
     border: none;
     background: transparent;
+    font-size: 2.5rem;
+}
+
+.button-close {
     font-size: 3rem;
 }
 
@@ -39,7 +43,6 @@
     }
 
     .main-nav.open {
-        display: block;
         position: fixed;
         top: 0;
         left: 0;
@@ -76,10 +79,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-
             border-radius: 10px;
             background-color: $c-darkblue;
-
             font-size: 1.5rem;
 
             animation: menu-reveal .2s;
