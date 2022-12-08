@@ -1,5 +1,7 @@
 .projects {
     @include section;
+    padding: 0;
+    padding-left: 2em;
 }
 
 .project-list {
