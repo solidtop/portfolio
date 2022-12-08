@@ -28,6 +28,15 @@ img {
   object-fit: contain;
 }
 
+.link:hover, i:hover {
+  background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(120%);
+  cursor: pointer;
+}
+
 .headline {
   font-size: 1.5rem;
 }
@@ -49,13 +58,6 @@ img {
   filter: brightness(120%);
 }
 
-a:hover, i:hover {
-  background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: brightness(120%);
-}
-
 .line {
   display: block;
   margin: 0.5em auto;
@@ -66,17 +68,41 @@ a:hover, i:hover {
   background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
 }
 
-progress {
+progress, progress::-webkit-progress-bar {
   display: block;
-  background-color: #162950;
   border: none;
   border-radius: 83px;
+  background-color: #162950;
 }
 
-progress::-webkit-progress-value,
+progress::-webkit-progress-value {
+  border-radius: 83px;
+  background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+}
+
 progress::-moz-progress-bar {
   border-radius: 83px;
   background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white;
+}
+*::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: none;
+}
+* ::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 .header {
