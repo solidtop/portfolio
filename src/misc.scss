@@ -23,6 +23,10 @@
         background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
     }
 
+    &.secondary {
+        background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+    }
+
     &:hover {
         cursor: pointer;
         color: white;
@@ -32,6 +36,18 @@
 
 .line {
     @include line(70%, 4px);
+}
+
+select {
+    background-color: $c-darkblue;
+    border: 2px solid rgba(white, .1);
+    border-radius: 5px;
+    font-size: .7rem;
+    padding: .4em;
+}
+
+option {
+    border: none;
 }
 
 progress, progress::-webkit-progress-bar {

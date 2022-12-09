@@ -52,6 +52,9 @@ img {
 .button.primary {
   background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
 }
+.button.secondary {
+  background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+}
 .button:hover {
   cursor: pointer;
   color: white;
@@ -66,6 +69,18 @@ img {
   height: 4px;
   border-radius: 83px;
   background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+}
+
+select {
+  background-color: #0F1624;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  font-size: 0.7rem;
+  padding: 0.4em;
+}
+
+option {
+  border: none;
 }
 
 progress, progress::-webkit-progress-bar {
@@ -251,6 +266,12 @@ progress::-moz-progress-bar {
   padding: 0 2em;
 }
 
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
 .project-list {
   display: flex;
   column-gap: 4em;
@@ -269,6 +290,7 @@ progress::-moz-progress-bar {
 .project {
   position: relative;
   min-width: 300px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -292,11 +314,8 @@ progress::-moz-progress-bar {
   gap: 0.5em;
 }
 .project__icon {
-  color: white;
-  padding: 0.3em;
-  border-radius: 5px;
-  backdrop-filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(160, 160, 160);
+  font-size: 0.8rem;
 }
 .project__title {
   font-size: 1.5rem;
@@ -378,6 +397,7 @@ progress::-moz-progress-bar {
   width: 1em;
   height: 1em;
   background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
 

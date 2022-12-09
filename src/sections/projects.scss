@@ -2,6 +2,12 @@
     @include section;
 }
 
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5em;
+}
+
 .project-list {
     display: flex;
     column-gap: 4em;
@@ -17,8 +23,9 @@
 }
 
 .project {
-        position: relative;
+    position: relative;
     min-width: 300px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -44,11 +51,8 @@
     }
 
     &__icon {
-        color: white;
-        padding: .3em;
-        border-radius: 5px;
-        backdrop-filter: blur(20px);
-        background-color: rgba(black, .3);
+        color: rgb(160, 160, 160);
+        font-size: .8rem;
     }
 
     &__title {

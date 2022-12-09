@@ -1,0 +1,103 @@
+{
+    "projects": [
+        {
+            "image": "./static/calculator.png",
+            "title": "Calculator",
+            "description": "A simple calculator made in JavaScript, html and css.",
+            "url": "https://solidtop.github.io/Calculator/",
+            "url2": "https://github.com/solidtop/Calculator",
+            "date": "09/12/2022",
+            "devices": ["desktop"],
+            "categories": ["javascript", "html", "css"]
+        },
+        {
+            "image": "./static/ESC.png",
+            "title": "Hacker Escape Rooms",
+            "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API data.",
+            "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
+            "url2": "https://github.com/solidtop/esc-hacker-escape-rooms",
+            "date": "09/12/2021",
+            "devices": ["mobile", "desktop"],
+            "categories": ["javascript", "html", "sass"]
+        },
+        {
+            "image": "./static/todo.png",
+            "title": "ToDo",
+            "description": "A simple Todo list made in HTML, JavaScript & CSS",
+            "url": "https://solidtop.github.io/ToDo/",
+            "url2": "https://github.com/solidtop/ToDo",
+            "date": "09/12/2020",
+            "devices": ["desktop"],
+            "categories": ["javascript", "html", "css"]
+        },
+        {
+            "image": "https://play-lh.googleusercontent.com/63tCXCqSzGcnbN-DHjwSyS8RR3lRtVAh7uRxCvgNi41YTgzQz_LaXPfvR6j_6sHHI2Y=w2560-h1440",
+            "title": "Marble Solitaire HD",
+            "description": "Puzzle game made for android. Made in Game Maker Studio 2. Available on google play store.",
+            "url": "https://play.google.com/store/apps/details?id=com.LogicalDuo.game&hl=en&gl=US&pli=1",
+            "url2": "",
+            "date": "09/12/2019",
+            "devices": ["android"],
+            "categories": ["gml"]
+        },
+        {
+            "image": "https://picsum.photos/640/460",
+            "title": "Project420",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
+            "url": "",
+            "url2": "",
+            "date": "09/12/2018",
+            "devices": ["mobile", "desktop"],
+            "categories": ["other"]
+        },
+        {
+            "image": "https://picsum.photos/640/560",
+            "title": "Project420",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
+            "url": "",
+            "url2": "",
+            "date": "09/12/2017",
+            "devices": ["mobile", "desktop"],
+            "categories": ["other"]
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "level": "65"
+        },
+        {
+            "id": 2,
+            "name": "CSS & SASS",
+            "level": "60"
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "level": "55"
+        }
+    ],
+    "additionalSkills": [
+        "Git",
+        "Teamwork",
+        "English",
+        "Engagement"
+    ],
+    "timeline": [
+        {
+            "year": "2020",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
+        },
+        {
+            "year": "2021",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
+        },
+        {
+            "year": "2022",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
+        }
+    ]
+}
+    
+       
