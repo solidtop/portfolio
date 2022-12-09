@@ -17,6 +17,7 @@
 }
 
 .project {
+        position: relative;
     min-width: 300px;
     display: flex;
     flex-direction: column;
@@ -32,6 +33,22 @@
         height: 200px;
         background-color: rgba(white, .05);
         border: 2px solid rgba(white, .01);
+    }
+
+    .icon-wrapper {
+        position: absolute;
+        top: 1.5em;
+        right: 1.5em;
+        display: flex;
+        gap: .5em;
+    }
+
+    &__icon {
+        color: white;
+        padding: .3em;
+        border-radius: 5px;
+        backdrop-filter: blur(20px);
+        background-color: rgba(black, .3);
     }
 
     &__title {
@@ -50,4 +67,5 @@
         font-size: .8rem;
     }
 }
+
 
