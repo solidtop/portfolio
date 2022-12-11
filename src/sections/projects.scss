@@ -1,5 +1,10 @@
 .projects {
     @include section;
+    padding: 0;
+
+    .headline {
+        margin-left: 2rem;
+    }
 }
 
 .filters {
@@ -10,14 +15,13 @@
 
 .project-list {
     display: flex;
-    column-gap: 4em;
-    row-gap: 2em;
+    gap: 2em;
     overflow: scroll;
-    padding: 1em;
+    padding: 1em 2em;
 
     @media (min-width: $bp-large) {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         grid-auto-flow: row;
     }
 }
@@ -34,6 +38,8 @@
     border-radius: 10px;
     background-color: rgba(white, .03);
     box-shadow: 0 0 20px rgba(black, .5);
+
+    animation: card-reveal .2s;
 
     &__image {
         border-radius: 8px;
@@ -72,4 +78,14 @@
     }
 }
 
+@keyframes card-reveal {
+    from {
+        transform: scale(.95);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 

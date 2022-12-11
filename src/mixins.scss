@@ -25,3 +25,10 @@
     border-radius: 5px;
     background-color: white;
 }
+
+@mixin color-gradient {
+    background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

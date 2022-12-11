@@ -56,13 +56,6 @@ class ProjectCard {
         desc.textContent = this.project.description;
         item.append(desc);
 
-        const link = document.createElement('a');
-        link.classList.add('button', 'primary');
-        link.href = this.project.url;
-        link.target = '_blank';
-        link.textContent = 'Look it up';
-        item.append(link);
-
         if (this.project.url2) {
             const link2 = document.createElement('a');
             link2.classList.add('button', 'secondary');
@@ -71,6 +64,14 @@ class ProjectCard {
             link2.textContent = 'Source code';
             item.append(link2);
         }
+
+        const link = document.createElement('a');
+        link.classList.add('button', 'primary');
+        link.href = this.project.url;
+        link.target = '_blank';
+        link.textContent = 'Look it up';
+        item.append(link);
+
         return item;
     }
 }

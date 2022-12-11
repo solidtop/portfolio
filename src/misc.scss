@@ -1,8 +1,5 @@
 .link:hover, i:hover {
-    background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include color-gradient;
     filter: brightness(120%);
     cursor: pointer;
 }
@@ -21,17 +18,19 @@
 
     &.primary {
         background: linear-gradient(to left, #13ADC7, #6978D1, #945DD6);
+
+        &:hover {
+            cursor: pointer;
+            color: white;
+            filter: brightness(120%);
+        }
     }
 
     &.secondary {
-        background: linear-gradient(to right, #13ADC7, #6978D1, #945DD6);
+        background: none;
+        text-decoration: underline;
     }
 
-    &:hover {
-        cursor: pointer;
-        color: white;
-        filter: brightness(120%);
-    }
 }
 
 .line {
