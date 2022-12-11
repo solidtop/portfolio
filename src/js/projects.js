@@ -14,11 +14,13 @@ class ProjectCard {
 
     constructor(project) {
         this.project = project;
+        this.currentIndex = 0;
     }
 
     render() {
         const item = document.createElement('li');
         item.classList.add('project');
+        this.item = item;
 
         const image = document.createElement('img');
         image.classList.add('project__image');

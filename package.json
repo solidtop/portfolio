@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My CV page.",
+  "main": "index.js",
+"scripts": {
+    "sass": "sass --no-source-map src/main.scss static/main.css",
+    "watch": "sass --no-source-map --watch src/main.scss static/main.css",
+    "build": "webpack",
+    "watch-js": "webpack --watch"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidtop/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solidtop/CV/issues"
+  },
+  "homepage": "https://github.com/solidtop/CV#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

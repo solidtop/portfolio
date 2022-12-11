@@ -36,10 +36,12 @@ class DateFilter {
         const option1 = document.createElement('option');
         option1.value = '';
         option1.textContent = 'Sort by date';
+        option1.disabled = true;
+        option1.selected = true;
         select.append(option1);
         const option2 = document.createElement('option');
         option2.value = 'recent';
-        option2.textContent = 'Most recent';
+        option2.textContent = 'Newest';
         select.append(option2);
         const option3 = document.createElement('option');
         option3.value = 'oldest';
@@ -80,7 +82,14 @@ class CategoryFilter {
         const option = document.createElement('option');
         option.value = '';
         option.textContent = 'Sort by category';
+        option.disabled = true;
+        option.selected = true;
         select.append(option);
+
+        const option2 = document.createElement('option');
+        option2.value = '';
+        option2.textContent = 'All';
+        select.append(option2);
 
         this.categories.forEach(category => {
             const option = document.createElement('option');

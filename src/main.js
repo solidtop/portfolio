@@ -35,7 +35,6 @@ async function run() {
 
     new SkillList(data.skills, data.additionalSkills).render();
     new Timeline(data.timeline).render();
-
 }
 
 run();
