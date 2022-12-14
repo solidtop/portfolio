@@ -6,17 +6,17 @@
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
         "url2": "https://github.com/solidtop/Calculator",
-        "date": "09/12/2022",
+        "date": "24/10/2022",
         "devices": ["desktop"],
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
         "image": "./static/ESC.png",
         "title": "Hacker Escape Rooms",
-        "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API data.",
+        "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API.",
         "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
         "url2": "https://github.com/solidtop/esc-hacker-escape-rooms",
-        "date": "09/12/2021",
+        "date": "14/12/2022",
         "devices": ["mobile", "desktop"],
         "categories": ["JavaScript", "HTML", "Sass"]
     },
@@ -26,7 +26,7 @@
         "description": "A simple Todo list made in HTML, JavaScript & CSS",
         "url": "https://solidtop.github.io/ToDo/",
         "url2": "https://github.com/solidtop/ToDo",
-        "date": "09/12/2020",
+        "date": "14/10/2022",
         "devices": ["desktop"],
         "categories": ["JavaScript", "HTML", "CSS"]
     },
@@ -36,9 +36,19 @@
         "description": "Puzzle game made for android. Made in Game Maker Studio 2. Available on google play store.",
         "url": "https://play.google.com/store/apps/details?id=com.LogicalDuo.game&hl=en&gl=US&pli=1",
         "url2": "",
-        "date": "09/12/2019",
+        "date": "07/06/2022",
         "devices": ["android"],
         "categories": ["GML"]
+    },
+    {
+        "image": "./static/schedule.png",
+        "title": "Work Schedule",
+        "description": "A simple schedule made with javaScript, HTML & CSS. This page is for keeping track of your work-days/hours and has an basic total income calculation. The schedule is using javaScripts Date object.",
+        "url": "https://solidtop.github.io/Work-Schedule/schedule.html",
+        "url2": "https://github.com/solidtop/Work-Schedule",
+        "date": "17/10/2022",
+        "devices": ["desktop"],
+        "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
         "image": "https://picsum.photos/640/460",
@@ -76,6 +86,16 @@
             "id": 3,
             "name": "JavaScript",
             "level": "55"
+        },
+        {
+            "id": 4,
+            "name": "Java",
+            "level": "20"
+        },
+        {
+            "id": 5,
+            "name": "GML",
+            "level": "95"
         }
     ],
     "additionalSkills": [
