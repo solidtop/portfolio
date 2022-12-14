@@ -294,8 +294,9 @@ progress::-moz-progress-bar {
 
 .project {
   position: relative;
-  min-width: 300px;
+  min-width: 15rem;
   max-width: 400px;
+  max-height: 30rem;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -350,8 +351,12 @@ progress::-moz-progress-bar {
 }
 .skeleton {
   position: relative;
-  min-width: 300px;
-  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 15rem;
+  max-width: 400px;
+  max-height: 30rem;
   padding: 1em;
   border: 2px rgba(255, 255, 255, 0.02);
   border-style: none solid none;
@@ -367,7 +372,7 @@ progress::-moz-progress-bar {
   width: 60%;
   height: 100%;
   background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.05), transparent 100%);
-  animation: load 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation: load 1.3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 .skeleton__image, .skeleton__title, .skeleton__text, .skeleton__button {
   background-color: rgba(255, 255, 255, 0.05);
@@ -397,7 +402,7 @@ progress::-moz-progress-bar {
 }
 .skeleton__button {
   height: 50px;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 @keyframes load {
