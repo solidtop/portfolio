@@ -5,7 +5,15 @@ export default class ProjectList {
 
         projects.forEach(project => {
             const card = new ProjectCard(project).render();
+            const skeleton = new SkeletonCard().render();
             list.append(card);
+            list.append(skeleton);
+
+            const image = card.querySelector('img');
+            image.onload = () => {
+                card.classList.remove('loading');
+                skeleton.remove();
+            }
         });
     }
 }
@@ -19,7 +27,7 @@ class ProjectCard {
 
     render() {
         const item = document.createElement('li');
-        item.classList.add('project');
+        item.classList.add('project', 'loading');
         this.item = item;
 
         const image = document.createElement('img');
@@ -75,5 +83,34 @@ class ProjectCard {
         item.append(link);
 
         return item;
+    }
+}
+
+class SkeletonCard {
+
+    render() {
+        const skeleton = document.createElement('div');
+        skeleton.classList.add('skeleton');
+
+        const image = document.createElement('div');
+        image.classList.add('skeleton__image');
+        skeleton.append(image);
+
+        const title = document.createElement('div');
+        title.classList.add('skeleton__title');
+        skeleton.append(title);
+
+        for (let i = 0; i < 4; i++) {
+            const text = document.createElement('div');
+            text.classList.add('skeleton__text');
+            text.id = 'text' + (i + 1);
+            skeleton.append(text);
+        }
+
+        const button = document.createElement('div');
+        button.classList.add('skeleton__button');
+        skeleton.append(button);
+
+        return skeleton;
     }
 }
