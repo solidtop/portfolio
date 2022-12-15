@@ -6,7 +6,7 @@
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
         "url2": "https://github.com/solidtop/Calculator",
-        "date": "24/10/2022",
+        "date": "10/24/2022",
         "devices": ["desktop"],
         "categories": ["JavaScript", "HTML", "CSS"]
     },
@@ -16,7 +16,7 @@
         "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API.",
         "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
         "url2": "https://github.com/solidtop/esc-hacker-escape-rooms",
-        "date": "14/12/2022",
+        "date": "12/14/2022",
         "devices": ["mobile", "desktop"],
         "categories": ["JavaScript", "HTML", "Sass"]
     },
@@ -26,17 +26,17 @@
         "description": "A simple Todo list made in HTML, JavaScript & CSS",
         "url": "https://solidtop.github.io/ToDo/",
         "url2": "https://github.com/solidtop/ToDo",
-        "date": "14/10/2022",
+        "date": "10/14/2022",
         "devices": ["desktop"],
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
         "image": "https://play-lh.googleusercontent.com/63tCXCqSzGcnbN-DHjwSyS8RR3lRtVAh7uRxCvgNi41YTgzQz_LaXPfvR6j_6sHHI2Y=w2560-h1440",
-        "tile": "Marble Solitaire HD",
+        "title": "Marble Solitaire HD",
         "description": "Puzzle game made for android. Made in Game Maker Studio 2. Available on google play store.",
         "url": "https://play.google.com/store/apps/details?id=com.LogicalDuo.game&hl=en&gl=US&pli=1",
         "url2": "",
-        "date": "07/06/2022",
+        "date": "06/07/2022",
         "devices": ["android"],
         "categories": ["GML"]
     },
@@ -46,7 +46,7 @@
         "description": "A simple schedule made with javaScript, HTML & CSS. This page is for keeping track of your work-days/hours and has an basic total income calculation. The schedule is using javaScripts Date object.",
         "url": "https://solidtop.github.io/Work-Schedule/schedule.html",
         "url2": "https://github.com/solidtop/Work-Schedule",
-        "date": "17/10/2022",
+        "date": "10/17/2022",
         "devices": ["desktop"],
         "categories": ["JavaScript", "HTML", "CSS"]
     },
@@ -56,7 +56,7 @@
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
         "url": "",
         "url2": "",
-        "date": "09/12/2018",
+        "date": "12/12/2018",
         "devices": ["mobile", "desktop"],
         "categories": ["Other"]
     },
