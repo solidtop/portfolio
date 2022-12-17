@@ -1,3 +1,5 @@
+import { SkeletonCard } from "./skeletons.js";
+
 export default class ProjectList {
     render(projects) {
         const list = document.querySelector('.project-list');
@@ -86,31 +88,3 @@ class ProjectCard {
     }
 }
 
-class SkeletonCard {
-
-    render() {
-        const skeleton = document.createElement('div');
-        skeleton.classList.add('skeleton');
-
-        const image = document.createElement('div');
-        image.classList.add('skeleton__image');
-        skeleton.append(image);
-
-        const title = document.createElement('div');
-        title.classList.add('skeleton__title');
-        skeleton.append(title);
-
-        for (let i = 0; i < 4; i++) {
-            const text = document.createElement('div');
-            text.classList.add('skeleton__text');
-            text.id = 'text' + (i + 1);
-            skeleton.append(text);
-        }
-
-        const button = document.createElement('div');
-        button.classList.add('skeleton__button');
-        skeleton.append(button);
-
-        return skeleton;
-    }
-}
