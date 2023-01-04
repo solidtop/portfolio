@@ -51,6 +51,16 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
+        "image": "./static/fishsim.png",
+        "title": "Fish Sim Game",
+        "description": "A fun little fish game testing out game logic using state machines. The game is made with javascripts canvas and 2d context rendering",
+        "url": "https://solidtop.github.io/FishSim/",
+        "url2": "https://github.com/solidtop/FishSim",
+        "date": "01/04/2023",
+        "devices": ["desktop"],
+        "categories": ["JavaScript"]
+    },
+    {
         "image": "https://picsum.photos/640/460",
         "title": "Project420",
         "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
