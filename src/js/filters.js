@@ -81,7 +81,7 @@ class CategoryFilter {
 
         const option = document.createElement('option');
         option.value = '';
-        option.textContent = 'Sort by category';
+        option.textContent = 'Filter by category';
         option.disabled = true;
         option.selected = true;
         select.append(option);
