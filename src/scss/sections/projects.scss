@@ -12,6 +12,12 @@
     justify-content: flex-end;
     gap: .5em;
     padding: 0 1em;
+
+    label {
+        display: block;
+        font-size: .8rem;
+        margin-bottom: .5em;
+    }
 }
 
 .project-list {

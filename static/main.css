@@ -134,7 +134,7 @@ progress::-moz-progress-bar {
 .header__title {
   font-size: 2rem;
   padding-left: 1.3em;
-  background-image: url("logo.svg");
+  background-image: url("/static/images/logo.svg");
   background-repeat: no-repeat;
   background-position: 0;
   background-size: 2rem auto;
@@ -277,6 +277,11 @@ progress::-moz-progress-bar {
   gap: 0.5em;
   padding: 0 1em;
 }
+.filters label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+}
 
 .project-list {
   display: flex;
@@ -402,8 +407,7 @@ progress::-moz-progress-bar {
 
 .timeline {
   display: none;
-  max-width: 70%;
-  margin: 0.5em auto;
+  margin: 0.5em 6em;
   margin-top: 3em;
   justify-content: space-between;
   align-items: center;
@@ -421,6 +425,7 @@ progress::-moz-progress-bar {
 
 .years {
   text-align: center;
+  gap: 1em;
 }
 .years span {
   text-decoration: underline;
@@ -432,8 +437,10 @@ progress::-moz-progress-bar {
     display: flex;
   }
   .years {
-    display: flex;
-    gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: auto;
   }
 }
 .footer {
@@ -448,8 +455,8 @@ progress::-moz-progress-bar {
 .footer__contacts li {
   margin: 1em 0;
 }
-.footer__contacts a {
-  display: block;
+.footer__contacts p {
+  margin: 0;
 }
 .footer__socials {
   display: flex;
@@ -532,5 +539,3 @@ progress::-moz-progress-bar {
     left: 100%;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

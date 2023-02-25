@@ -34,7 +34,7 @@ class ProjectCard {
 
         const image = document.createElement('img');
         image.classList.add('project__image');
-        image.src = this.project.image;
+        image.src = this.project.imageUrl;
         image.alt = 'Image representation of project';
         item.append(image);
 
@@ -77,13 +77,14 @@ class ProjectCard {
             item.append(link2);
         }
 
-        const link = document.createElement('a');
-        link.classList.add('button', 'primary');
-        link.href = this.project.url;
-        link.target = '_blank';
-        link.textContent = 'Look it up';
-        item.append(link);
-
+        if (this.project.url) {
+            const link = document.createElement('a');
+            link.classList.add('button', 'primary');
+            link.href = this.project.url;
+            link.target = '_blank';
+            link.textContent = 'Look it up';
+            item.append(link);
+        }
         return item;
     }
 }

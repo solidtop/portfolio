@@ -16,6 +16,8 @@ export default class Filter {
             });
             document.querySelector('.filters').append(item);
         });
+
+        list.render(this.filter());
     }
 
     filter() {
@@ -30,26 +32,29 @@ export default class Filter {
 class DateFilter {
 
     render() {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('filter-wrapper');
+        
+        const label = document.createElement('label');
+        label.for = 'sort';
+        label.textContent = 'Sort by';
+        wrapper.append(label);
+
         const select = document.createElement('select');
         this.select = select;
+        select.id = 'sort';
+        wrapper.append(select);
 
         const option1 = document.createElement('option');
-        option1.value = '';
-        option1.textContent = 'Sort by date';
-        option1.disabled = true;
-        option1.selected = true;
+        option1.value = 'recent';
+        option1.textContent = 'Newest';
         select.append(option1);
         const option2 = document.createElement('option');
-        option2.value = 'recent';
-        option2.textContent = 'Newest';
+        option2.value = 'oldest';
+        option2.textContent = 'Oldest';
         select.append(option2);
-        const option3 = document.createElement('option');
-        option3.value = 'oldest';
-        option3.textContent = 'Oldest';
-        select.append(option3);
-
-       
-        return select;
+   
+        return wrapper;
     }
 
     filter(projects) {
@@ -76,20 +81,23 @@ class CategoryFilter {
     }
 
     render() {
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('filter-wrapper');
+        
+        const label = document.createElement('label');
+        label.for = 'sort';
+        label.textContent = 'Filter by';
+        wrapper.append(label);
+
         const select = document.createElement('select');
         this.select = select;
+        select.id = 'filter';
+        wrapper.append(select);
 
         const option = document.createElement('option');
         option.value = '';
-        option.textContent = 'Filter by category';
-        option.disabled = true;
-        option.selected = true;
+        option.textContent = 'All';
         select.append(option);
-
-        const option2 = document.createElement('option');
-        option2.value = '';
-        option2.textContent = 'All';
-        select.append(option2);
 
         this.categories.forEach(category => {
             const option = document.createElement('option');
@@ -97,7 +105,8 @@ class CategoryFilter {
             option.textContent = category;
             select.append(option);
         });
-        return select;
+        
+        return wrapper;
     }
 
     filter(projects) {

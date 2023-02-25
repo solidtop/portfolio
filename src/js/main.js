@@ -1,7 +1,8 @@
-import ProjectList from "./js/projects.js";
-import SkillList from "./js/skills.js";
-import Timeline from "./js/timeline.js";
-import Filter from "./js/filters.js";
+import APIAdapter from "./api.js";
+import ProjectList from "./projects.js";
+import SkillList from "./skills.js";
+import Timeline from "./timeline.js";
+import Filter from "./filters.js";
 
 document.querySelector('.button-open').addEventListener('click', () => {
     document.querySelector('.main-nav').classList.add('open');   
@@ -17,17 +18,9 @@ navLinks.forEach(link => {
     });
 });
 
-
-class APIAdapter {
-    async loadData() {
-        const res = await fetch('./static/data.json');
-        const data = await res.json();
-        return data;
-    }
-}
-
 async function run() {
-    const data = await new APIAdapter().loadData();
+    const api = new APIAdapter();
+    const data = await api.loadData();
 
     const projectList = new ProjectList();
     projectList.render(data.projects);

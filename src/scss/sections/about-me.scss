@@ -4,8 +4,7 @@
 
 .timeline {
     display: none;
-    max-width: 70%;
-    margin: .5em auto;
+    margin: .5em 6em;
     margin-top: 3em;
     justify-content: space-between;
     align-items: center;
@@ -19,13 +18,13 @@
         height: 1em;
         background-color: white;
         box-shadow: 0 0 10px rgba(black, .5);
-        //background-color: rgb(240, 240, 240);
         border-radius: 50%;
     }
 }
 
 .years {
     text-align: center;
+    gap: 1em;
 
     span {
         text-decoration: underline;
@@ -39,7 +38,9 @@
     }
 
     .years {
-        display: flex;
-        gap: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        margin: auto;
     }
 }

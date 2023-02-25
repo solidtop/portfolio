@@ -1,15 +1,14 @@
 {
-  "name": "cv",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "My CV page.",
+  "description": "My portfolio page.",
   "main": "index.js",
-"scripts": {
-    "sass": "sass --no-source-map src/main.scss static/main.css",
-    "watch": "sass --no-source-map --watch src/main.scss static/main.css",
+  "scripts": {
+    "sass": "sass --no-source-map src/scss/main.scss static/main.css",
+    "watch": "sass --no-source-map --watch src/scss/main.scss static/main.css",
     "build": "webpack",
     "watch-js": "webpack --watch"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/solidtop/CV.git"

@@ -1,7 +1,7 @@
 {
     "projects": [
     {
-        "image": "./static/calculator.png",
+        "imageUrl": "static/images/calculator.png",
         "title": "Calculator",
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
@@ -11,7 +11,7 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "image": "./static/ESC.png",
+        "imageUrl": "/static/images/ESC.png",
         "title": "Hacker Escape Rooms",
         "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API.",
         "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
@@ -21,7 +21,7 @@
         "categories": ["JavaScript", "HTML", "Sass"]
     },
     {
-        "image": "./static/todo.png",
+        "imageUrl": "/static/images/todo.png",
         "title": "ToDo",
         "description": "A simple Todo list made in HTML, JavaScript & CSS",
         "url": "https://solidtop.github.io/ToDo/",
@@ -31,9 +31,9 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "image": "https://play-lh.googleusercontent.com/63tCXCqSzGcnbN-DHjwSyS8RR3lRtVAh7uRxCvgNi41YTgzQz_LaXPfvR6j_6sHHI2Y=w2560-h1440",
-        "title": "Marble Solitaire HD",
-        "description": "Puzzle game made for android. Made in Game Maker Studio 2. Available on google play store.",
+        "imageUrl": "https://play-lh.googleusercontent.com/63tCXCqSzGcnbN-DHjwSyS8RR3lRtVAh7uRxCvgNi41YTgzQz_LaXPfvR6j_6sHHI2Y=w2560-h1440",
+        "title": "Marble Solitaire",
+        "description": "Puzzle game made for android. Made in Game Maker Studio 2. Available on google play store. Using Google Play Services API for cloud saving and online leaderboards",
         "url": "https://play.google.com/store/apps/details?id=com.LogicalDuo.game&hl=en&gl=US&pli=1",
         "url2": "",
         "date": "06/07/2022",
@@ -41,7 +41,7 @@
         "categories": ["GML"]
     },
     {
-        "image": "./static/schedule.png",
+        "imageUrl": "/static/images/schedule.png",
         "title": "Work Schedule",
         "description": "A simple schedule made with javaScript, HTML & CSS. This page is for keeping track of your work-days/hours and has an basic total income calculation. The schedule is using javaScripts Date object.",
         "url": "https://solidtop.github.io/Work-Schedule/schedule.html",
@@ -51,9 +51,9 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "image": "./static/fishsim.png",
+        "imageUrl": "/static/images/fishsim.png",
         "title": "Fish Sim Game",
-        "description": "A fun little fish game testing out game logic using state machines. The game is made with javascripts canvas and 2d context rendering",
+        "description": "A little fish game testing out classes and game logic using states. The game is made with javascripts canvas and 2d context rendering",
         "url": "https://solidtop.github.io/FishSim/",
         "url2": "https://github.com/solidtop/FishSim",
         "date": "01/04/2023",
@@ -61,24 +61,14 @@
         "categories": ["JavaScript"]
     },
     {
-        "image": "https://picsum.photos/640/460",
-        "title": "Project420",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
+        "imageUrl": "/static/images/Sundsvallspegeln.png",
+        "title": "Sundsvalls Spegeln",
+        "description": "Cinema site that contains movies, screenings, reviews and rating. Server is made using Express.js and implements REST API design, that fetches data from CMS API. The website is using serverside rendering (SSR), HTML is built and manipulated with the template engine pug.",
         "url": "",
-        "url2": "",
-        "date": "12/12/2018",
+        "url2": "https://github.com/solidtop/SundsvallsSpegelnSSR",
+        "date": "02/22/2023",
         "devices": ["mobile", "desktop"],
-        "categories": ["Other"]
-    },
-    {
-        "image": "https://picsum.photos/640/560",
-        "title": "Project420",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptatibus amet eveniet eum officia et quos molestiae, recusandae sequi eius, iure error minima maxime quis vero ratione voluptate in dolores!",
-        "url": "",
-        "url2": "",
-        "date": "09/12/2017",
-        "devices": ["mobile", "desktop"],
-        "categories": ["Other"]
+        "categories": ["JavaScript", "Sass", "HTML"]
     }
     ], 
     "skills": [
@@ -90,42 +80,52 @@
         {
             "id": 2,
             "name": "CSS & SASS",
-            "level": "60"
+            "level": "65"
         },
         {
             "id": 3,
             "name": "JavaScript",
-            "level": "55"
+            "level": "70"
         },
         {
             "id": 4,
-            "name": "Java",
-            "level": "20"
+            "name": "TypeScript",
+            "level": "65"
         },
         {
             "id": 5,
+            "name": "Java",
+            "level": "40"
+        },
+        {
+            "id": 6,
             "name": "GML",
             "level": "95"
         }
     ],
     "additionalSkills": [
+        "Express.js",
+        "Node.js",
+        "Windows",
+        "MacOS",
         "Git",
         "Teamwork",
+        "Scrum",
         "English",
         "Engagement"
     ],
     "timeline": [
         {
-            "year": "2020",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
-        },
-        {
             "year": "2021",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
+            "description": "Aquired a degree of Bachelor of Fine Ars with specialization in music production. During this time I further developed creative problemsolving, handling of digital music tools, and an ability to effectevly realize and finish projects."
         },
         {
             "year": "2022",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas architecto ab, earum voluptatum ullam officiis veniam sint sed laborum omnis, quisquam qui consequuntur fuga illum deserunt delectus et consectetur quis!"
+            "description": "Teaching music production and working as a personal assistant. When teaching I improved my social skills and the ability to plan, structure, and execute lessons. As a personal assistant I worked independently with a high responsability and handling of medicine."
+        },
+        {
+            "year": "2023",
+            "description": "Studying to become a fullstack developer in JavaScript and Java. From creating websites with HTML, CSS/SASS and JavaScript, testing with Jest and SuperTest, to designing REST-APIs with express.js. I have learned a variety of popular frameworks and libraries. "
         }
     ]
 }
