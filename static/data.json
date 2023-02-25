@@ -1,7 +1,7 @@
 {
     "projects": [
     {
-        "imageUrl": "static/images/calculator.png",
+        "imageUrl": "/static/images/calculator.png",
         "title": "Calculator",
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
