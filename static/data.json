@@ -61,7 +61,7 @@
         "categories": ["JavaScript"]
     },
     {
-        "imageUrl": "./static/images/Sundsvallspegeln.png",
+        "imageUrl": "./static/images/sundsvallspegeln.png",
         "title": "Sundsvalls Spegeln",
         "description": "Cinema site that contains movies, screenings, reviews and rating. Server is made using Express.js and implements REST API design, that fetches data from CMS API. The website is using serverside rendering (SSR), HTML is built and manipulated with the template engine pug.",
         "url": "",
