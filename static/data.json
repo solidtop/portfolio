@@ -1,7 +1,7 @@
 {
     "projects": [
     {
-        "imageUrl": "/static/images/calculator.png",
+        "imageUrl": "./static/images/calculator.png",
         "title": "Calculator",
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
@@ -11,7 +11,7 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "imageUrl": "/static/images/ESC.png",
+        "imageUrl": "./static/images/ESC.png",
         "title": "Hacker Escape Rooms",
         "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API.",
         "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
@@ -21,7 +21,7 @@
         "categories": ["JavaScript", "HTML", "Sass"]
     },
     {
-        "imageUrl": "/static/images/todo.png",
+        "imageUrl": "./static/images/todo.png",
         "title": "ToDo",
         "description": "A simple Todo list made in HTML, JavaScript & CSS",
         "url": "https://solidtop.github.io/ToDo/",
@@ -41,7 +41,7 @@
         "categories": ["GML"]
     },
     {
-        "imageUrl": "/static/images/schedule.png",
+        "imageUrl": "./static/images/schedule.png",
         "title": "Work Schedule",
         "description": "A simple schedule made with javaScript, HTML & CSS. This page is for keeping track of your work-days/hours and has an basic total income calculation. The schedule is using javaScripts Date object.",
         "url": "https://solidtop.github.io/Work-Schedule/schedule.html",
@@ -51,7 +51,7 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "imageUrl": "/static/images/fishsim.png",
+        "imageUrl": "./static/images/fishsim.png",
         "title": "Fish Sim Game",
         "description": "A little fish game testing out classes and game logic using states. The game is made with javascripts canvas and 2d context rendering",
         "url": "https://solidtop.github.io/FishSim/",
@@ -61,7 +61,7 @@
         "categories": ["JavaScript"]
     },
     {
-        "imageUrl": "/static/images/Sundsvallspegeln.png",
+        "imageUrl": "./static/images/Sundsvallspegeln.png",
         "title": "Sundsvalls Spegeln",
         "description": "Cinema site that contains movies, screenings, reviews and rating. Server is made using Express.js and implements REST API design, that fetches data from CMS API. The website is using serverside rendering (SSR), HTML is built and manipulated with the template engine pug.",
         "url": "",
