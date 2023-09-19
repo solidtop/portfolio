@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 html, body {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ html, body {
 }
 @media (min-width: 600px) {
   html, body {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -161,6 +161,7 @@ progress::-moz-progress-bar {
 }
 .main-nav__socials {
   gap: 1em;
+  font-size: 1.2rem;
 }
 
 .button-open, .button-close {
@@ -247,7 +248,7 @@ progress::-moz-progress-bar {
   padding: 0 2em;
 }
 .hero__portrait {
-  max-width: 6em;
+  max-width: 8em;
   border-radius: 50%;
   float: left;
   padding: 1em;
@@ -329,6 +330,7 @@ progress::-moz-progress-bar {
 }
 .project__title {
   font-size: 1.5rem;
+  font-weight: bold;
   margin: 0;
   text-align: center;
 }
@@ -456,7 +458,7 @@ progress::-moz-progress-bar {
 .footer__socials {
   display: flex;
   gap: 1em;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 1000px) {
