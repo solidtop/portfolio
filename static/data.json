@@ -1,7 +1,17 @@
 {
     "projects": [
     {
-        "imageUrl": "./static/images/calculator.png",
+        "imageUrl": "./static/images/projects/wordle.png",
+        "title": "Wordle",
+        "description": "A Wordle clone that is built using TypeScript and express.js on backend, and React.js on frontend. ",
+        "url": "",
+        "url2": "https://github.com/solidtop/wordle",
+        "date": "05/1/2023",
+        "devices": ["desktop"],
+        "categories": ["TypeScript", "React.js", "Sass", "Express.js"]
+    },
+    {
+        "imageUrl": "./static/images/projects/calculator.png",
         "title": "Calculator",
         "description": "A simple calculator made in JavaScript, html and css.",
         "url": "https://solidtop.github.io/Calculator/",
@@ -11,17 +21,7 @@
         "categories": ["JavaScript", "HTML", "CSS"]
     },
     {
-        "imageUrl": "./static/images/ESC.png",
-        "title": "Hacker Escape Rooms",
-        "description": "A responsive webbpage written in HTML, JavaScript & SASS for a school project. Book, filter and browse challenges rendered and fetched via API.",
-        "url": "https://solidtop.github.io/esc-hacker-escape-rooms/",
-        "url2": "https://github.com/solidtop/esc-hacker-escape-rooms",
-        "date": "12/14/2022",
-        "devices": ["mobile", "desktop"],
-        "categories": ["JavaScript", "HTML", "Sass"]
-    },
-    {
-        "imageUrl": "./static/images/todo.png",
+        "imageUrl": "./static/images/projects/todo.png",
         "title": "ToDo",
         "description": "A simple Todo list made in HTML, JavaScript & CSS",
         "url": "https://solidtop.github.io/ToDo/",
@@ -41,17 +41,17 @@
         "categories": ["GML"]
     },
     {
-        "imageUrl": "./static/images/schedule.png",
-        "title": "Work Schedule",
-        "description": "A simple schedule made with javaScript, HTML & CSS. This page is for keeping track of your work-days/hours and has an basic total income calculation. The schedule is using javaScripts Date object.",
-        "url": "https://solidtop.github.io/Work-Schedule/schedule.html",
-        "url2": "https://github.com/solidtop/Work-Schedule",
-        "date": "10/17/2022",
-        "devices": ["desktop"],
-        "categories": ["JavaScript", "HTML", "CSS"]
+        "imageUrl": "./static/images/projects/cocktail-hub.png",
+        "title": "Cocktail Hub",
+        "description": "Website where you can browse & save you favourite cocktails. This project is made using Next.js and TypeScript, and fetches cocktail data from external api.",
+        "url": "https://cocktail-hub.vercel.app/",
+        "url2": "https://github.com/solidtop/cocktail-hub",
+        "date": "06/20/2023",
+        "devices": ["mobile, desktop"],
+        "categories": ["TypeScript", "Next.js", "Tailwind"]
     },
     {
-        "imageUrl": "./static/images/fishsim.png",
+        "imageUrl": "./static/images/projects/fishsim.png",
         "title": "Fish Sim Game",
         "description": "A little fish game testing out classes and game logic using states. The game is made with javascripts canvas and 2d context rendering",
         "url": "https://solidtop.github.io/FishSim/",
@@ -61,12 +61,12 @@
         "categories": ["JavaScript"]
     },
     {
-        "imageUrl": "./static/images/sundsvallspegeln.png",
-        "title": "Sundsvalls Spegeln",
-        "description": "Cinema site that contains movies, screenings, reviews and rating. Server is made using Express.js and implements REST API design, that fetches data from CMS API. The website is using serverside rendering (SSR), HTML is built and manipulated with the template engine pug.",
+        "imageUrl": "./static/images/projects/next-kino.png",
+        "title": "Spegeln",
+        "description": "Cinema site that contains movies, screenings and a booking system. Project is made using Next.js.",
         "url": "",
         "url2": "https://github.com/solidtop/SundsvallsSpegelnSSR",
-        "date": "02/22/2023",
+        "date": "05/15/2023",
         "devices": ["mobile", "desktop"],
         "categories": ["JavaScript", "Sass", "HTML"]
     }
@@ -75,44 +75,41 @@
         {
             "id": 1,
             "name": "HTML",
-            "level": "65"
+            "level": "90"
         },
         {
             "id": 2,
             "name": "CSS & SASS",
-            "level": "65"
+            "level": "90"
         },
         {
             "id": 3,
             "name": "JavaScript",
-            "level": "70"
+            "level": "95"
         },
         {
             "id": 4,
             "name": "TypeScript",
-            "level": "65"
+            "level": "85"
         },
         {
             "id": 5,
             "name": "Java",
-            "level": "40"
-        },
-        {
-            "id": 6,
-            "name": "GML",
-            "level": "95"
+            "level": "65"
         }
     ],
     "additionalSkills": [
         "Express.js",
         "Node.js",
+        "Next.js",
+        "Jest",
+        "Spring Boot",
+        "Junit",
         "Windows",
-        "MacOS",
         "Git",
         "Teamwork",
         "Scrum",
-        "English",
-        "Engagement"
+        "English"
     ],
     "timeline": [
         {
